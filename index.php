@@ -7,14 +7,7 @@ var_dump($pdo);
 $statement = $pdo->prepare("SELECT * FROM posts");
 $statement->execute();
 $posts = $statement->fetchAll(PDO::FETCH_ASSOC);
-var_dump($posts);
 
-function dd($value) {
-    echo "<pre>";
-        var_dump($posts);
-    echo "</pre>";
-    die();
-}
 
 echo "<ul>";
     foreach($posts as $post) {
