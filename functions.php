@@ -2,7 +2,7 @@
 
 function dd($value) {
     echo "<pre>";
-       var_dump($posts);
+       var_dump($value);
     echo "</pre>";
     die();
 }

@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+li {
+    font-style: italic;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+input {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 10px black;
+}
+button {
+    width: 4rem;
+    height: 2rem;
+}
